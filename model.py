@@ -1,4 +1,4 @@
-from modules import * # TKINTER
+#from modules import * # TKINTER
 
 
 # PARTE QUE ACESSA O ARQUIVO PARA REALIZAR DETERMINADA AÇÃO
