@@ -112,8 +112,7 @@ class App(GetTelas, Crud):
 
         self.treeview.place(x=40, y=100)
 
-        for e in self.registros:
-            self.treeview.insert("", "end", values=[f"{e[0]}", f"{e[2]}", f"{e[1]}"])
+        self.exibir_registros()
 
         self.window.mainloop()
     
