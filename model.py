@@ -57,7 +57,7 @@ class ModelParaCrud():
         for e in self.dados_py:
             #self.linha = e.split(" | ")
             self.lista = [e["banda_artista"], e["album"], e["ano_lancamento"]]
-            if self.nm_artista in e["banda_artista"].lower():
+            if self.nm_artista.lower() in e["banda_artista"].lower():
                 self.lista_exibir.append(self.lista)
 
 

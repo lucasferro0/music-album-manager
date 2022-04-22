@@ -115,7 +115,7 @@ class Crud(ModelParaCrud):
         for e in self.treeview.get_children():
             self.treeview.delete(e)
         
-        self.nm_artista = self.entrada1.get().lower()
+        self.nm_artista = self.entrada1.get()
 
         if self.nm_artista != "" and not self.nm_artista.isspace():
 
